@@ -1,2 +1,94 @@
+{block head}
+    <link rel="stylesheet" href="/{$style}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+{/block}
+
 {block content}
-<h1><b>SALIRE IN RELE</b></h1>
+<div class="burgermenu"><button onclick="$('.menu').show()"><img src="/menu-burger-horizontal-svgrepo-com.svg" width="24px" height="24px"></button></div> <h1><b>SALIRE IN RELE</b></h1>
+<div class="menu">
+    <table class="w3-table-all">
+        <tr><td><a href="http://salire.luckyluk.cz/home/chats/">chat</a></td><td>v tomto chatu vám někdo z nás odpoví na otázky ke hře, a nebo si můžete jen tak s nekým pokecat</td></tr>
+        <tr><td><button onclick="$('.menu').hide()">close</button></td></tr>
+    </table>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+        <h2><i>Vybavení</i></h2>
+    </header>
+    <div class="w3-container">
+        <table class="w3-table-all">
+            <tr class="black"><td>sqashový míček</td></tr>
+            <tr class="black"><td>2, 4, 8, 16x pálku na plážový badminton</td></tr>
+            <tr class="black"><td>sqashový míček</td></tr>
+            <tr class="black"><td>hřiště 10x18m se sítí ve výšce 1m sahající až skoro k zemi</td></tr>
+            <tr class="black"><td>sqashový míček</td></tr>
+        </table>
+        <p><br> Před hrou míček chvíli mačkejte v dlani aby se zahřál, cca 2min.</p>
+    </div>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+        <h2><i>pravidla hry</i></h2>
+    </header>
+    <div class="w3-container">
+        <p>Hráči si míček přehazují přes síť, a musí odpálit míček tomu druhému. Hra je pro 2, 4, 8, nebo 16 hráčů. Ten kdo má méně bodů, až na jedinou výjimku rozehrává.</p>
+    </div>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+    <h2><i>Smash</i></h2>
+    </header>
+    <div class="w3-container">
+        <p>každý hráč má daný počet smashů. <br></p>
+        <table class="w3-table-all">
+            <tr class="w3-red black"><th>počet hráčů</th><th>počet smashů</th></tr>
+            <tr class="black"><td>2/4</td><td>3</td></tr>
+            <tr class="black"><td>8/16</td><td>2</td></tr>
+        </table>
+        <p>smash uděláš tak, že při ráně zařveš "SMASH". Pak pro hráče co dal smash neplatí zadní <a href="#auty">aut</a></p>
+    </div>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+        <h2><i>bodování</i></h2>
+    </header>
+    <div class="w3-container">
+        <p>Hráč co míček odpálil, získá tolik bodů, kolikrát se míček dotkl země na straně protihráče, předtím než ho protihráč odpálil. Chce to rozhodčího. Síť má tři pásma:</p>
+        <table class="w3-table-all">
+            <tr class="w3-red black"><th>pásmo</th><th>počet trestných bodů(bodů pro protihráče)</th><th>umístění</th></tr>
+            <tr class="black"><td>horní(správné)</td><td>0</td><td>nahoře nad sítí</td></tr>
+            <tr class="black"><td>střední</td><td>5</td><td>oka sítě</td></tr>
+            <tr class="black"><td>spodní</td><td>10</td><td>místo pod sítí(zem) (+ spodní oko sítě[jen pokud je síť až na zem])</td></tr>
+        </table>
+        <p>Až jeden hráč/team získá 100 bodů Hra končí.</p>
+        <table class="w3-table-all">
+            <tr class="w3-red black"><th>počet hráčů</th><th>délka hry(v minutách)</th></tr>
+            <tr class="black"><td>2</td><td>45</td></tr>
+            <tr class="black"><td>4</td><td>40</td></tr>
+            <tr class="black"><td>8</td><td>35</td></tr>
+            <tr class="black"><td>16</td><td>30</td></tr>
+        </table>
+    </div>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+        <h2><i>auty<a id="auty"></a></i></h2>
+    </header>
+    <div class="w3-container">
+        <p>Když dá hráč aut(jím odpálený míček vyletí z hřiště), protihráč získá 10 bodů.Jestliže hráč dá aut na svojí stranu nestane se nic jiného než protihráč bude rozehrávat. Pokud se dá aut po středním pásmu atd. Vždy se počítá první porušené pravidlo a jeho body. Když dáte Smash neplatí pro Smash jenom zadní aut jestližese váš Smash dotkne pravého/levého autu normálně máte 10 trestných bodů neboli 10 bodů pro protihráče.</p>
+    </div>
+</div>
+<div class="w3-card-4 block">
+    <header class="w3-container w3-blue">
+        <h2><i>typy:</i></h2>
+    </header>
+    <div class="w3-container">
+        <table class="w3-table-all">
+            <tr class="black"><td>
+                    Pokud si nahráváte (nehrajete proti sobě) doporučujeme švihat pálku ze sdola nahoru, nikoli ze shora dolů, z důvodu, že ze zdola nahoru je to jedndušší chytat.
+                </td>
+            </tr>
+            <tr class="black"><td>?</td></tr>
+        </table>
+    </div>
+</div>

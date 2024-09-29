@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.black {
+    color: black;
+}
+
+h1 {
+    margin: 10px auto 10px auto;
+}
+
+.block {
+    width: 50%;
+    height: auto;
+    margin: 1.5cm auto 1.5cm auto;
+}
+#menu {
+    position: fixed;
+    display: none;
+    background-color: white;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}

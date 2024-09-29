@@ -4,9 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title>{ifset title}{include title|stripHtml} | {/ifset}Nette Web</title>
-	<link rel="stylesheet" href="/main.css">
-	
+	<title>{ifset title}{include title|stripHtml} | {/ifset}salire</title>
+
+	{block head}
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="/main.css">
+
+	{/block}
 </head>
 
 <body>
@@ -16,6 +20,7 @@
 
 	{block scripts}
 	<script src="https://unpkg.com/nette-forms@3/src/assets/netteForms.js"></script>
+		<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 	{/block}
 </body>
 </html>
